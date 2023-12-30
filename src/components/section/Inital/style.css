@@ -1,0 +1,37 @@
+section {
+  padding: 0 0px 50px;
+}
+
+section > div {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+section > div > div {
+  display: grid;
+  grid-template-rows: 2fr auto;
+  align-items: start;
+  margin: 0 auto;
+}
+
+section h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+section h1 span {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.buttonSocial {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  margin-top: 25px;
+}
+
+section img {
+  max-width: 460px;
+}
