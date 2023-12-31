@@ -1,12 +1,12 @@
 import React from 'react'
 import "./style.css"
 
-const ButtonSocial = () => {
+const ButtonSocial = ({url = "#", img, name, colorName}) => {
   return (
-    <button>
-      <img src="src\assets\icons\github.svg" alt="GitHUb" />
-      <span>GitHub</span>
-    </button>
+    <a href={url} target='_blank' className='button-social' rel="noreferrer">
+      <img src={img} alt="Icon" />
+      <span style={{color: colorName}}>{name}</span>
+    </a>
   )
 }
 

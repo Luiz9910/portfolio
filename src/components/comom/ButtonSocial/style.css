@@ -1,4 +1,4 @@
-button {
+.button-social {
   display: flex;
   align-items: center;
   padding: 10px 20px;
@@ -6,19 +6,45 @@ button {
   background-color: white;
   border-radius: 10px;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
-button:hover {
+.button-social:hover {
   transition: 0.3s;
   background-color: rgba(255, 255, 255, 0.63);
 }
 
-button img {
+.button-social img {
   width: 30px;
 }
 
-button span {
+.button-social span {
   font-size: 1.2rem;
   font-weight: 700;
   padding-top: 2px;
+}
+
+@media (max-width: 950px) {
+  .button-social {
+    padding: 10px 15px;
+    gap: 5px;
+  }
+
+  .button-social span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {  
+  .button-social span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .button-social {
+    padding: 10px 10px;
+    gap: 2px;
+  }
 }

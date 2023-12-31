@@ -1,26 +1,26 @@
-section {
+.apresentation {
   padding: 0 0px 50px;
 }
 
-section > div {
-  display: flex;
-  gap: 70px;
-  align-items: center;
-}
-
-section > div > div {
+.apresentation > div {
   display: grid;
-  grid-template-rows: 2fr auto;
-  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
   margin: 0 auto;
 }
 
-section h1 {
+.apresentation > div > div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.apresentation h1 {
   font-weight: 400;
   font-size: 2rem;
 }
 
-section h1 span {
+.apresentation h1 span {
   font-weight: 700;
   font-size: 4rem;
 }
@@ -34,4 +34,64 @@ section h1 span {
 
 section img {
   max-width: 460px;
+}
+
+@media (max-width: 950px) {
+  .apresentation > div {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .apresentation h1 {
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+  
+  .apresentation h1 span {
+    font-weight: 700;
+    font-size: 3.4rem;
+  }
+  
+  section img {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 750px) {
+  section img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .apresentation > div > div {
+    width: initial;
+  }
+
+  .apresentation h1 {
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+  
+  .apresentation h1 span {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  section > div > img {
+    display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .apresentation h1 {
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+  
+  .apresentation h1 span {
+    font-weight: 700;
+    font-size: 3rem;
+  }
 }
