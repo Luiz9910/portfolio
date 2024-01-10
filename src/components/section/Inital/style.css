@@ -32,8 +32,9 @@
   margin-top: 25px;
 }
 
-section img {
+img {
   max-width: 460px;
+  width: 100%;
 }
 
 @media (max-width: 950px) {
@@ -58,9 +59,13 @@ section img {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   section img {
     max-width: 300px;
+  }
+
+  .apresentation img {
+    max-width: 280px;
   }
 }
 

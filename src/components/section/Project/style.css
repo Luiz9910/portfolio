@@ -5,3 +5,13 @@
 .project h2 {
   text-align: center;
 }
+
+.container-slide {
+  width: initial; 
+}
+
+@media (max-width: 700px) {
+  .project {
+    margin-top: 40px;
+  }
+}

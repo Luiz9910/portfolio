@@ -1,0 +1,44 @@
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 30px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.content {
+  flex: 1;
+  padding: 0 20px 0px;
+  align-self: end;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #3E7BFA;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.buttons a:hover {
+  transition: 0.3s;
+  background-color: #3e79fa81;
+}
+
+@media (max-width: 800px) {
+  .slide {
+    flex-direction: column;
+  }
+
+  .content {
+    align-self: center;
+  }
+}

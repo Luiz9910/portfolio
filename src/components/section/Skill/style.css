@@ -1,0 +1,43 @@
+.skills {
+  margin-top: 120px;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.skills ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills ul li {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  gap: 7px;
+}
+
+.skills .name-skill {
+  font-weight: 600;
+}
+
+.skills .image-skill {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 700px) {
+  .skills {
+    margin-top: 40px;
+  }
+}

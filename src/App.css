@@ -14,8 +14,4 @@ main > div {
   main {
     padding-top: 50px;
   }
-
-  main > div {
-    padding: 20px 20px;
-  }
 }

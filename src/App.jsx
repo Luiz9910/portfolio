@@ -4,6 +4,7 @@ import Header from "./components/comom/Header/Header";
 import Apresentation from "./components/section/Inital/Apresentation";
 import About from "./components/section/About/About";
 import Project from "./components/section/Project/Project";
+import Skill from "./components/section/Skill/Skill";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Apresentation />
           <About />
           <Project />
+          <Skill />
         </div>
       </main>
     </React.Fragment>

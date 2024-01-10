@@ -29,7 +29,7 @@ const Apresentation = () => {
             />
           </div>
         </div>
-        <img src="src\assets\images\ImageOne.svg" alt="Luiz Felipe"/>
+        <img src="src\assets\images\Me.svg" alt="Luiz Felipe" id="image-me"/>
       </div>
     </section>
   );

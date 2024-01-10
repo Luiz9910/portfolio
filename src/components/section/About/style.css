@@ -31,6 +31,12 @@ h2 {
   }
 }
 
+@media (max-width: 420px) {
+  .about p {
+    padding-right: 20px;
+  }
+}
+
 @media (max-width: 390px) {
   .about > div  {
     width: 270px;
