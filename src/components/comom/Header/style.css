@@ -1,6 +1,5 @@
-header {
+.header {
   width: 100%;
-  background-color: #0B2436;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -8,9 +7,18 @@ header {
   justify-content: space-between;
   gap: 20px;
   padding: 25px;
+  transition: background-color 0.3s ease-in-out;
 }
 
-header > div > a {
+.header.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0B2436;
+  z-index: 1000;
+}
+
+.header > div > a {
   text-decoration: none;
   color: white;
 }
@@ -20,7 +28,7 @@ header > div > a {
   color: #3E7BFA;
 }
 
-header > div > a > p {
+.header > div > a > p {
   display: inline;
   padding: 0 5px;
   font-size: 1.4rem;

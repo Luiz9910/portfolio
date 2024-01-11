@@ -1,7 +1,7 @@
 import React from "react";
 import "./slide.css";
 
-const Slide = ({ image, text, deployLink, repoLink }) => {
+const Slide = ({ image, text, deployLink, repoLink, repoLinkBack, repoLinkFront}) => {
   return (
     <div className="slide">
       <div className="image-container">
@@ -17,7 +17,17 @@ const Slide = ({ image, text, deployLink, repoLink }) => {
           )}
           {repoLink && (
             <a href={repoLink} target="_blank" rel="noopener noreferrer">
-              Repository
+              Repositório
+            </a>
+          )}
+            {repoLinkFront && (
+            <a href={repoLinkFront} target="_blank" rel="noopener noreferrer">
+              Repositório Back-End
+            </a>
+          )}
+            {repoLinkBack && (
+            <a href={repoLinkBack} target="_blank" rel="noopener noreferrer">
+              Repositório Front-End
             </a>
           )}
         </div>

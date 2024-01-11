@@ -1,0 +1,136 @@
+.contact {
+  padding: 120px 0px 50px;
+}
+
+.contact h2{
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form > div {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.contact-form > div input {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.contact-form label {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #3E7BFA;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  width: max-content;
+}
+
+.contact-form button:hover {
+  background-color: #3e79fab0;
+}
+
+.data-contact {
+  margin-top: 20px;
+  justify-self: center;
+}
+
+.data-contact > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.data-contact > div > img {
+  width: 40px;
+  padding-top: 20px;
+}
+
+.data-contact h3{
+  margin-top: 20px;
+}
+
+.data-contact p {
+  margin-top: 5px;
+}
+
+.feedback {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.feedback.success {
+  background-color: #4caf50;
+  color: white;
+}
+
+.feedback.error {
+  background-color: #f44336;
+  color: white;
+}
+
+.feedback button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .about > div  {
+    width: 240px;
+  }
+}

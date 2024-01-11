@@ -16,6 +16,10 @@
   align-self: end;
 }
 
+.content p {
+  line-height: 1.4rem;
+}
+
 .buttons a {
   display: inline-block;
   margin-right: 10px;

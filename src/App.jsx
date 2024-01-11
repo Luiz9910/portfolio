@@ -5,6 +5,7 @@ import Apresentation from "./components/section/Inital/Apresentation";
 import About from "./components/section/About/About";
 import Project from "./components/section/Project/Project";
 import Skill from "./components/section/Skill/Skill";
+import ContactForm from "./components/section/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <About />
           <Project />
           <Skill />
+          <ContactForm />
         </div>
       </main>
     </React.Fragment>
