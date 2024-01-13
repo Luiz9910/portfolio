@@ -15,8 +15,9 @@ const slides = [
   {
     image: "images/project/10.01.2024_20.11.20_REC.png",
     text: "Portfolio desenvolvido com ReactJs para apresentar meu perfil profissional, back end desenvolvido com node e express para o envio de dados de contato.",
-    deployLink: "https://example.com/deploy",
-    repoLink: "https://github.com/Luiz9910/portfolio.git",
+    deployLink: "https://eloquent-choux-bdd14c.netlify.app/",
+    repoLinkFront: "https://github.com/Luiz9910/portfolio.git",
+    repoLinkBack: "https://github.com/Luiz9910/back-portfolio.git"
   },
 ];
 
