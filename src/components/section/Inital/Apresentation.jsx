@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import ButtonSocial from "../../comom/ButtonSocial/ButtonSocial";
 import MeImage from '../../../assets/images/Me.svg';
+import GithubImage from "../../../assets/icons/github.svg"
+import LinkedinImage from "../../../assets/icons/linkedin.svg"
 
 const Apresentation = () => {
   return (
@@ -18,13 +20,13 @@ const Apresentation = () => {
           <div className="buttonSocial">
             <ButtonSocial
               url="https://github.com/Luiz9910"
-              img="src/assets/icons/github.svg"
+              img={GithubImage}
               name="Github"
               colorName="#00000"
             />
             <ButtonSocial
               url="https://www.linkedin.com/in/luiz-felipe-95942222b/"
-              img="src/assets/icons/linkedin.svg"
+              img={LinkedinImage}
               name="Linkedin"            />
           </div>
         </div>
