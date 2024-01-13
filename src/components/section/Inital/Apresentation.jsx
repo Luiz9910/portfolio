@@ -29,7 +29,7 @@ const Apresentation = () => {
             />
           </div>
         </div>
-        <img src="src\assets\images\Me.svg" alt="Luiz Felipe" id="image-me"/>
+        <img src="https://portfolio-delta-pied-55.vercel.app/src/assets/images\Me.svg" alt="Luiz Felipe" id="image-me"/>
       </div>
     </section>
   );
