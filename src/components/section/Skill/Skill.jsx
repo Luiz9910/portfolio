@@ -4,59 +4,59 @@ import "./style.css";
 const Skill = () => {
   const skills = [
     {
-      image: "https://main--eloquent-choux-bdd14c.netlify.app/src/assets/images/skills/HTML.svg",
+      image: "images/skills/HTML.svg",
       name: "HTML",
     },
     {
-      image: "src/assets/images/skills/CSS.svg",
+      image: "images/skills/CSS.svg",
       name: "CSS",
     },
     {
-      image: "src/assets/images/skills/javascript.svg",
+      image: "images/skills/javascript.svg",
       name: "Javascript",
     },
     {
-      image: "src/assets/images/skills/node.svg",
+      image: "images/skills/node.svg",
       name: "Node",
     },
     {
-      image: "src/assets/images/skills/express.svg",
+      image: "images/skills/express.svg",
       name: "Express",
     },
     {
-      image: "src/assets/images/skills/nestjs.svg",
+      image: "images/skills/nestjs.svg",
       name: "NestJs",
     },
     {
-      image: "src/assets/images/skills/java.svg",
+      image: "images/skills/java.svg",
       name: "Java",
     },
     {
-      image: "src/assets/images/skills/springboot.svg",
+      image: "images/skills/springboot.svg",
       name: "Spring Boot",
     },
     {
-      image: "src/assets/images/skills/mongo.svg",
+      image: "images/skills/mongo.svg",
       name: "MongoDB",
     },
     {
-      image: "src/assets/images/skills/mysql.svg",
+      image: "images/skills/mysql.svg",
       name: "MySQL",
     },
     {
-      image: "src/assets/images/skills/react.svg",
+      image: "images/skills/react.svg",
       name: "React",
     },
     {
-      image: "src/assets/images/skills/styled.svg",
+      image: "images/skills/styled.svg",
       name: "Styled com",
     },
     {
-      image: "src/assets/images/skills/git.svg",
+      image: "images/skills/git.svg",
       name: "Git",
     },
     {
-      image: "src/assets/images/skills/github.svg",
+      image: "images/skills/github.svg",
       name: "Github",
     },
   ];

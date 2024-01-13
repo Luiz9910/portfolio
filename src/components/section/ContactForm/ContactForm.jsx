@@ -126,21 +126,21 @@ const ContactForm = () => {
         </form>
         <div className="data-contact">
           <div>
-            <img src="src\assets\images\contact\icons8-telefone-50 (1).png" alt="Icon Telefone" />
+            <img src="images\contact\icons8-telefone-50 (1).png" alt="Icon Telefone" />
             <div>
               <h3>Telefone</h3>
               <p>(81)9 9259-6941</p>
             </div>
           </div>
           <div>
-            <img src="src\assets\images\contact\icons8-nova-mensagem-50 (1).png" alt="Icon E-mail" />
+            <img src="images\contact\icons8-marcador-64 (1).png" alt="Icon E-mail" />
             <div>
               <h3>E-mail</h3>
               <p>luizfelipealvesdesouza706@gmail.com</p>
             </div>
           </div>
           <div>
-            <img src="src\assets\images\contact\icons8-marcador-64 (1).png" alt="Icon localização" />
+            <img src="images\contact\icons8-marcador-64 (1).png" alt="Icon localização" />
             <div>
               <h3>Localização</h3>
               <p>Recife, PE - Brasil</p>

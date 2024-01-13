@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import ButtonSocial from "../../comom/ButtonSocial/ButtonSocial";
-import MeImage from '../../../assets/images/Me.svg';
 
 const Apresentation = () => {
   return (
@@ -18,17 +17,17 @@ const Apresentation = () => {
           <div className="buttonSocial">
             <ButtonSocial
               url="https://github.com/Luiz9910"
-              img="assets\icons\github.svg"
+              img="icons\icons8-github-48 1.svg"
               name="Github"
               colorName="#00000"
             />
             <ButtonSocial
               url="https://www.linkedin.com/in/luiz-felipe-95942222b/"
-              img="assets\icons\linkedin.svg"
+              img="icons\icons8-linkedin-48 1.svg"
               name="Linkedin"            />
           </div>
         </div>
-        <img src={MeImage} alt="Luiz Felipe" id="image-me"/>
+        <img src="/images/Me.svg" alt="Luiz Felipe" id="image-me"/>
       </div>
     </section>
   );

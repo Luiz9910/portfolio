@@ -1,6 +1,5 @@
-// Header.js
 import React, { useState, useEffect } from "react";
-import { Link as ScrollLink, Events, animateScroll as scroll } from 'react-scroll';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import "./style.css";
 
 const Header = () => {
@@ -10,7 +9,9 @@ const Header = () => {
   const [scrollTimeout, setScrollTimeout] = useState(null);
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    if (window.innerWidth <= 640) {
+      setIsMobileMenuOpen(!isMobileMenuOpen);
+    }
   };
 
   const handleScroll = () => {
@@ -53,12 +54,15 @@ const Header = () => {
 
   return (
     <header className={`header ${isScrolled ? "fixed" : ""} ${scrollDirection === "up" ? "hidden" : ""}`}>
-      <div className="logo">
-        <ScrollLink to="/" smooth={true} duration={500} onClick={scrollToTop}>
-          <span className="key-logo">&#123;</span>
-          <p>Luiz.code</p>
-          <span className="key-logo">&#125;</span>
-        </ScrollLink>
+      <div className="logo-container">
+        <div className="logo">
+          <ScrollLink to="/" smooth={true} duration={500} onClick={scrollToTop}>
+            <div></div>
+            <span className="span-logo">&#123;</span>
+            <p>Luiz.code</p>
+            <span className="span-logo">&#125;</span>
+          </ScrollLink>
+        </div>
       </div>
       <div className={`menu-container ${isMobileMenuOpen ? "open" : ""}`}>
         <div className="hamburger" onClick={toggleMobileMenu}>
@@ -77,7 +81,7 @@ const Header = () => {
             <ScrollLink to="project" smooth={true} duration={500}>Projetos</ScrollLink>
           </li>
           <li>
-            <ScrollLink to="skills" smooth={true} duration={500}>habilidades</ScrollLink>
+            <ScrollLink to="skills" smooth={true} duration={500}>Habilidades</ScrollLink>
           </li>
           <li>
             <ScrollLink to="contact" smooth={true} duration={500}>Contato</ScrollLink>
