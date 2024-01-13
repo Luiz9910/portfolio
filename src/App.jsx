@@ -6,6 +6,7 @@ import About from "./components/section/About/About";
 import Project from "./components/section/Project/Project";
 import Skill from "./components/section/Skill/Skill";
 import ContactForm from "./components/section/ContactForm/ContactForm";
+import Footer from "./components/comom/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <ContactForm />
         </div>
       </main>
+      <Footer />
     </React.Fragment>
   );
 }

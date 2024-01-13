@@ -53,8 +53,8 @@ const Header = () => {
 
   return (
     <header className={`header ${isScrolled ? "fixed" : ""} ${scrollDirection === "up" ? "hidden" : ""}`}>
-      <div>
-        <ScrollLink to="top" smooth={true} duration={500} onClick={scrollToTop}>
+      <div className="logo">
+        <ScrollLink to="/" smooth={true} duration={500} onClick={scrollToTop}>
           <span className="key-logo">&#123;</span>
           <p>Luiz.code</p>
           <span className="key-logo">&#125;</span>
@@ -77,7 +77,7 @@ const Header = () => {
             <ScrollLink to="project" smooth={true} duration={500}>Projetos</ScrollLink>
           </li>
           <li>
-            <ScrollLink to="skills" smooth={true} duration={500}>Skills</ScrollLink>
+            <ScrollLink to="skills" smooth={true} duration={500}>habilidades</ScrollLink>
           </li>
           <li>
             <ScrollLink to="contact" smooth={true} duration={500}>Contato</ScrollLink>
