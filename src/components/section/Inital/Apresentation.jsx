@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import ButtonSocial from "../../comom/ButtonSocial/ButtonSocial";
+import MeImage from '../../../assets/images/Me.svg';
 
 const Apresentation = () => {
   return (
@@ -24,12 +25,10 @@ const Apresentation = () => {
             <ButtonSocial
               url="https://www.linkedin.com/in/luiz-felipe-95942222b/"
               img="src/assets/icons/linkedin.svg"
-              name="Linkedin"
-              colorName="#0078D4"
-            />
+              name="Linkedin"            />
           </div>
         </div>
-        <img src="https://portfolio-delta-pied-55.vercel.app/src/assets/images\Me.svg" alt="Luiz Felipe" id="image-me"/>
+        <img src={MeImage} alt="Luiz Felipe" id="image-me"/>
       </div>
     </section>
   );
