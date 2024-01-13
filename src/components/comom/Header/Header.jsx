@@ -68,6 +68,9 @@ const Header = () => {
         </div>
         <ul className={`menu ${isMobileMenuOpen ? "open" : ""}`}>
           <li>
+            <ScrollLink to="initial" smooth={true} duration={500}>Início</ScrollLink>
+          </li>
+          <li>
             <ScrollLink to="sobremim" smooth={true} duration={500}>Sobre mim</ScrollLink>
           </li>
           <li>
@@ -75,6 +78,9 @@ const Header = () => {
           </li>
           <li>
             <ScrollLink to="skills" smooth={true} duration={500}>Skills</ScrollLink>
+          </li>
+          <li>
+            <ScrollLink to="contact" smooth={true} duration={500}>Contato</ScrollLink>
           </li>
         </ul>
       </div>

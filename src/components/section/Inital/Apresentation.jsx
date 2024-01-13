@@ -4,7 +4,7 @@ import ButtonSocial from "../../comom/ButtonSocial/ButtonSocial";
 
 const Apresentation = () => {
   return (
-    <section className="apresentation">
+    <section className="apresentation" id="initial">
       <div>
         <div>
           <h1>

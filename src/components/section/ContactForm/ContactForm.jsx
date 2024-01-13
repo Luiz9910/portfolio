@@ -79,7 +79,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h2>Contato</h2>
       <div className="contact-container">
         <form className="contact-form" onSubmit={handleSubmit}>
@@ -129,7 +129,7 @@ const ContactForm = () => {
             <img src="src\assets\images\contact\icons8-telefone-50 (1).png" alt="Icon Telefone" />
             <div>
               <h3>Telefone</h3>
-              <p>(81)9 8861-5976</p>
+              <p>(81)9 9259-6941</p>
             </div>
           </div>
           <div>

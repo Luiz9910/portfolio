@@ -48,3 +48,13 @@
     gap: 2px;
   }
 }
+
+@media (max-width: 350px) {
+  .button-social img {
+    width: 20px;
+  }
+
+  .button-social span {
+    font-size: 1.2rem;
+  }
+}

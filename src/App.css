@@ -15,3 +15,17 @@ main > div {
     padding-top: 50px;
   }
 }
+
+
+@media (max-width: 350px) {
+  main {
+    padding-top: 30px;
+  }
+
+  
+  main > div {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 20px 20px;
+  }
+}
