@@ -4,7 +4,7 @@ import "./style.css";
 const Skill = () => {
   const skills = [
     {
-      image: "src/assets/images/skills/HTML.svg",
+      image: "https://main--eloquent-choux-bdd14c.netlify.app/src/assets/images/skills/HTML.svg",
       name: "HTML",
     },
     {
